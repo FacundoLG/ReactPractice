@@ -8,15 +8,14 @@ const Carousel = props =>{
         <div className="carouselContainer">
             <h2>Top 10</h2>
             <div className="carousel">
-                <Songs/>
-                <Songs/>
-                <Songs/>
-                <Songs/>
-                <Songs/>
-                <Songs/>
-                <Songs/>
-                <Songs/>
-                <Songs/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
+                <Songs name="Patatudoooooooo"/>
             </div>
         </div>
         <div className="mediaPlayer">
