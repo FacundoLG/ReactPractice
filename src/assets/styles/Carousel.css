@@ -1,0 +1,40 @@
+.playListContainer {
+  max-width: 400px;
+  margin: 5px;
+}
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  min-width: 290px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.104);
+  border-radius: 10px 10px 0px 0px;
+  padding: 0px 10px;
+  color: #e5e5e5;
+}
+.carouselContainer h2 {
+  margin: 10px 0px;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 200px;
+}
+.carousel::-webkit-scrollbar {
+  width: 6px;
+  background: rgb(27, 43, 49);
+}
+.carousel::-webkit-scrollbar-thumb {
+  background: #fca311;
+  width: 6px;
+  border-radius: 10px;
+}
+
+.mediaPlayer {
+  background: #000;
+  height: 35px;
+  border-radius: 0px 0px 10px 10px;
+  border-bottom: #fca311 solid 2px;
+}
