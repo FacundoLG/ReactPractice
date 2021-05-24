@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  color: #fff;
+  color: #e5e5e5;
 }
 .brandContainer {
   margin-left: 20px;
@@ -14,4 +14,8 @@
 .headerNav ul li {
   display: inline;
   margin-left: 12px;
+  font-weight: 500;
+}
+.contact {
+  color: #fca311;
 }

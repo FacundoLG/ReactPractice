@@ -12,7 +12,7 @@ const Header = (props) =>{
                 <ul>
                     <li>Home</li>
                     <li>About Me</li>
-                    <li>Contact</li>
+                    <li className="contact">Contact</li>
                 </ul>
             </div>
         </header>
