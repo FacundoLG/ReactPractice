@@ -1,7 +1,8 @@
 import React from 'react';
 import '../assets/styles/Songs.css'
 const Songs = props =>{
-    const {name, icon} = props
+    const {name} = props
+    var icon = 'https://cdn.icon-icons.com/icons2/2226/PNG/512/play_icon_134504.png'
     return(
         <div className="songContainer">
             <img src={icon} alt="" />

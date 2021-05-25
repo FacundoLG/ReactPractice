@@ -1,19 +1,32 @@
 .playListContainer {
+  width: 100%;
   max-width: 400px;
   margin: 5px;
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleContainer button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
 }
 .carouselContainer {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   min-width: 290px;
-  height: 250px;
+  max-height: 250px;
   background-color: rgba(255, 255, 255, 0.104);
   border-radius: 10px 10px 0px 0px;
   padding: 0px 10px;
   color: #e5e5e5;
 }
-.carouselContainer h2 {
+
+.titleContainer h2 {
   margin: 10px 0px;
 }
 .carousel {
@@ -36,5 +49,4 @@
   background: #000;
   height: 35px;
   border-radius: 0px 0px 10px 10px;
-  border-bottom: #fca311 solid 2px;
 }
